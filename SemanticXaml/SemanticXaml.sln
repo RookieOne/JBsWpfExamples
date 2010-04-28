@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticXaml", "SemanticXaml\SemanticXaml.csproj", "{0C0D9200-0002-414A-B02B-7F9E2C0BC218}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticXaml.Examples", "SemanticXaml.Examples\SemanticXaml.Examples.csproj", "{D09F4F45-06A1-4A04-9CCD-27057D8FD9B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticXaml.Tests", "SemanticXaml.Tests\SemanticXaml.Tests.csproj", "{456354D8-C40E-4383-8512-5FFA770AFF9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C0D9200-0002-414A-B02B-7F9E2C0BC218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C0D9200-0002-414A-B02B-7F9E2C0BC218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C0D9200-0002-414A-B02B-7F9E2C0BC218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C0D9200-0002-414A-B02B-7F9E2C0BC218}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D09F4F45-06A1-4A04-9CCD-27057D8FD9B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D09F4F45-06A1-4A04-9CCD-27057D8FD9B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D09F4F45-06A1-4A04-9CCD-27057D8FD9B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D09F4F45-06A1-4A04-9CCD-27057D8FD9B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{456354D8-C40E-4383-8512-5FFA770AFF9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{456354D8-C40E-4383-8512-5FFA770AFF9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{456354D8-C40E-4383-8512-5FFA770AFF9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{456354D8-C40E-4383-8512-5FFA770AFF9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
