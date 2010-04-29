@@ -1,0 +1,30 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:WpfLibrary="clr-namespace:WpfLibrary;assembly=WpfLibrary">
+
+	<Color x:Key="white"
+	       A="255"
+	       R="255"
+	       G="255"
+	       B="255" />
+
+	<Color x:Key="red"
+	       A="255"
+	       R="200"
+	       G="0"
+	       B="0" />
+
+	<LinearGradientBrush x:Key="redBrush"
+	                     EndPoint="0.5,1"
+	                     StartPoint="0.5,0">
+		<GradientStop Color="{WpfLibrary:LightenMarkupExtension Color={StaticResource red}, LightFactor=1.1}"
+		              Offset="0" />
+		<GradientStop Color="{WpfLibrary:LightenMarkupExtension Color={StaticResource red}, LightFactor=.9}"
+		              Offset=".2" />
+		<GradientStop Color="{WpfLibrary:LightenMarkupExtension Color={StaticResource red}, LightFactor=1}"
+		              Offset=".6" />
+		<GradientStop Color="{WpfLibrary:LightenMarkupExtension Color={StaticResource red}, LightFactor=1.5}"
+		              Offset="1" />
+	</LinearGradientBrush>
+
+</ResourceDictionary>
