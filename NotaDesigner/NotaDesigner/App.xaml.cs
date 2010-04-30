@@ -13,7 +13,7 @@ namespace NotaDesigner
         {
             base.OnStartup(e);
 
-            LoadUsingFileWatcher();
+            //LoadUsingFileWatcher();
         }
 
         void LoadUsingFileWatcher()
