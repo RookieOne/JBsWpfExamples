@@ -67,6 +67,7 @@
     <Compile Include="Controls\DisplayDate.cs" />
     <Compile Include="Controls\DisplayDateRange.cs" />
     <Compile Include="Controls\Labeler.cs" />
+    <Compile Include="Controls\PageTitle.cs" />
     <Compile Include="Controls\SectionTitle.cs" />
     <Compile Include="Extensions\ObjectExtensions.cs" />
     <Compile Include="Forms\Field.cs" />
@@ -90,6 +91,10 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="ResourceUtilities\ImageConvention.cs" />
+    <Compile Include="ResourceUtilities\IResourceConvention.cs" />
+    <Compile Include="ResourceUtilities\ResourceDictionaryConvention.cs" />
+    <Compile Include="ResourceUtilities\ResourceDictionaryLoader.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
