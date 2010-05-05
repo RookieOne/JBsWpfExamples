@@ -64,6 +64,8 @@
     <Compile Include="Colors\InverseColorMarkupExtension.cs" />
     <Compile Include="Colors\LightenColorExtension.cs" />
     <Compile Include="Colors\LightenMarkupExtension.cs" />
+    <Compile Include="Controls\Labeler.cs" />
+    <Compile Include="Controls\SectionTitle.cs" />
     <Compile Include="Extensions\ObjectExtensions.cs" />
     <Compile Include="Forms\Field.cs" />
     <Compile Include="Forms\Form.cs" />
