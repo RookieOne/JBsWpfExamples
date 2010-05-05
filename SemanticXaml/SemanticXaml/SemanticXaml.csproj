@@ -67,6 +67,12 @@
     <Compile Include="Extensions\ObjectExtensions.cs" />
     <Compile Include="Forms\Field.cs" />
     <Compile Include="Forms\Form.cs" />
+    <Compile Include="LabelPanels\HorizontalStrategy.cs" />
+    <Compile Include="LabelPanels\ILabelPanelGridFacade.cs" />
+    <Compile Include="LabelPanels\ILabelPanelLayoutStrategy.cs" />
+    <Compile Include="LabelPanels\LabelPanel.cs" />
+    <Compile Include="LabelPanels\LabelPanelGridFacade.cs" />
+    <Compile Include="LabelPanels\VerticalStrategy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
