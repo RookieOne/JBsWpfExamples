@@ -71,6 +71,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Controls\DisplayDateExample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ExampleWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -90,6 +94,9 @@
     </Compile>
     <Compile Include="Colors\LightenColorExample.xaml.cs">
       <DependentUpon>LightenColorExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DisplayDateExample.xaml.cs">
+      <DependentUpon>DisplayDateExample.xaml</DependentUpon>
     </Compile>
     <Compile Include="ExampleWindow.xaml.cs">
       <DependentUpon>ExampleWindow.xaml</DependentUpon>
