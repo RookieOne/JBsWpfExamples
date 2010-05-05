@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotaDesigner", "NotaDesigner\NotaDesigner.csproj", "{2D5D02DC-5C0C-46C9-BCEB-5334869603A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StylesByFile", "StylesByFile\StylesByFile.csproj", "{53DF59B9-AD21-4254-9790-1BC04B0ADCDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfUtilities", "WpfUtilities\WpfUtilities.csproj", "{77FAB6C3-20BE-41BC-BA5C-F58DBE047144}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{2D5D02DC-5C0C-46C9-BCEB-5334869603A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D5D02DC-5C0C-46C9-BCEB-5334869603A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D5D02DC-5C0C-46C9-BCEB-5334869603A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53DF59B9-AD21-4254-9790-1BC04B0ADCDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53DF59B9-AD21-4254-9790-1BC04B0ADCDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53DF59B9-AD21-4254-9790-1BC04B0ADCDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53DF59B9-AD21-4254-9790-1BC04B0ADCDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77FAB6C3-20BE-41BC-BA5C-F58DBE047144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77FAB6C3-20BE-41BC-BA5C-F58DBE047144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77FAB6C3-20BE-41BC-BA5C-F58DBE047144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77FAB6C3-20BE-41BC-BA5C-F58DBE047144}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
