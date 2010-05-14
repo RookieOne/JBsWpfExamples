@@ -2,8 +2,9 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:Colors="clr-namespace:SemanticXaml.Examples.Colors"
         xmlns:Controls="clr-namespace:SemanticXaml.Examples.Controls"
+        xmlns:StickyNoteListBox="clr-namespace:SemanticXaml.Examples.StickyNoteListBox"
         Title="ExampleWindow" Height="300" Width="300">
     <Grid>
-        <Controls:DisplayDateExample />
+        <StickyNoteListBox:StickyNoteListBoxExample />
     </Grid>
 </Window>
