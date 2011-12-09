@@ -59,14 +59,34 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnimatedPanel\AnimatedPanel.cs" />
+    <Compile Include="AnimatedPanel\AnimationStrategies\IItemAnimationStrategy.cs" />
+    <Compile Include="AnimatedPanel\AnimationStrategies\SlideAnimationStrategy.cs" />
+    <Compile Include="AnimatedPanel\AnimationStrategies\SlideDownAnimationStrategy.cs" />
+    <Compile Include="AnimatedPanel\AnimationStrategies\SlideUpAnimationStrategy.cs" />
+    <Compile Include="Behaviors\RandomRotateBehavior.cs" />
     <Compile Include="Colors\ColorServiceProviderExtensions.cs" />
     <Compile Include="Colors\InverseColorExtensions.cs" />
     <Compile Include="Colors\InverseColorMarkupExtension.cs" />
     <Compile Include="Colors\LightenColorExtension.cs" />
     <Compile Include="Colors\LightenMarkupExtension.cs" />
+    <Compile Include="Controls\DisplayDate.cs" />
+    <Compile Include="Controls\DisplayDateRange.cs" />
+    <Compile Include="Controls\Labeler.cs" />
+    <Compile Include="Controls\PageTitle.cs" />
+    <Compile Include="Controls\SectionTitle.cs" />
+    <Compile Include="Extensions\DurationExtensions.cs" />
     <Compile Include="Extensions\ObjectExtensions.cs" />
+    <Compile Include="FluentWpf\Animate.cs" />
+    <Compile Include="FluentWpf\Bind.cs" />
     <Compile Include="Forms\Field.cs" />
     <Compile Include="Forms\Form.cs" />
+    <Compile Include="LabelPanels\HorizontalStrategy.cs" />
+    <Compile Include="LabelPanels\ILabelPanelGridFacade.cs" />
+    <Compile Include="LabelPanels\ILabelPanelLayoutStrategy.cs" />
+    <Compile Include="LabelPanels\LabelPanel.cs" />
+    <Compile Include="LabelPanels\LabelPanelGridFacade.cs" />
+    <Compile Include="LabelPanels\VerticalStrategy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -80,6 +100,19 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="ResourceUtilities\ImageConvention.cs" />
+    <Compile Include="ResourceUtilities\IResourceConvention.cs" />
+    <Compile Include="ResourceUtilities\ResourceDictionaryConvention.cs" />
+    <Compile Include="ResourceUtilities\ResourceDictionaryLoader.cs" />
+    <Compile Include="TransitionControl\AnimationStrategies\FadeAnimationStrategy.cs" />
+    <Compile Include="TransitionControl\AnimationStrategies\ITransitionAnimationStrategy.cs" />
+    <Compile Include="TransitionControl\AnimationStrategies\ModalAnimationStrategy.cs" />
+    <Compile Include="TransitionControl\AnimationStrategies\SlideAnimationStrategy.cs" />
+    <Compile Include="TransitionControl\AnimationStrategies\TransitionAnimationStrategy.cs" />
+    <Compile Include="TransitionControl\ITransitionControl.cs" />
+    <Compile Include="TransitionControl\TransitionContentControl.xaml.cs">
+      <DependentUpon>TransitionContentControl.xaml</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -92,6 +125,10 @@
   </ItemGroup>
   <ItemGroup>
     <Page Include="Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TransitionControl\TransitionContentControl.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
