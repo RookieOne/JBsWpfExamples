@@ -2,6 +2,6 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:Colors="clr-namespace:SemanticXaml.Examples.Colors" Title="ExampleWindow" Height="300" Width="300">
     <Grid>
-        <Colors:LightenColorExample />
+        <Colors:InverseColorExample />
     </Grid>
 </Window>
